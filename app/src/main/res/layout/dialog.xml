@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:padding="5dp"
+    android:layout_marginTop="130dp"
+    android:background="#FFF"
+    android:orientation="vertical" >
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:id="@+id/dialog_top"
+        android:layout_weight="2" />
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="100dp"
+
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:gravity="right"
+        android:scrollbars="vertical"
+        android:id="@+id/dialog_edt1"
+        android:text="Hello,I am CB Bot.\nCommands\t\t\n1.event\t\t\t\t\t\t\t\n2.workshop\t\t\t\t\n3.event ____\t\t\t\n4.workshop ____"
+        android:textSize="15sp"
+        android:textColor="#909090"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+
+        android:orientation="horizontal" >
+        <EditText android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:textSize="15sp"
+            android:id="@+id/dialog_edt"
+
+            android:hint="enter text" />
+	
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/dialog_btn"
+        android:text="send" />
+    </LinearLayout>
+</LinearLayout>

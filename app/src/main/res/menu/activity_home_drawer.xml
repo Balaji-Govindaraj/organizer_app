@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_home_black"
+            android:title="HOME" />
+        <item
+            android:id="@+id/partners"
+            android:icon="@drawable/partners_icon"
+            android:title="PARTNERS" />
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/phone"
+            android:title="CONTACT US" />
+        <item
+            android:id="@+id/chat"
+            android:icon="@drawable/phone"
+            android:title="CB Bot" />
+     <!--   <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Workshops" />-->
+    </group>
+
+    <item android:title="Events">
+        <menu>
+            <item
+                android:id="@+id/algo_event"
+                android:icon="@drawable/ic_menu_send"
+                android:title="ALGO" />
+            <item
+                android:id="@+id/elex_event"
+                android:icon="@drawable/ic_menu_send"
+                android:title="ELEX" />
+            <item
+                android:id="@+id/mech_event"
+                android:icon="@drawable/ic_menu_send"
+                android:title="MECH" />
+            <item
+                android:id="@+id/general_event"
+                android:icon="@drawable/ic_menu_send"
+                android:title="GENERAL" />
+            <item
+                android:id="@+id/robotics_event"
+                android:icon="@drawable/ic_menu_send"
+                android:title="ROBOTICS" />
+            <item
+                android:id="@+id/online_event"
+                android:icon="@drawable/ic_menu_send"
+                android:title="ONLINE" />
+        </menu>
+
+    </item>
+    <item android:title="Workshops">
+        <menu>
+            <item
+                android:id="@+id/algo_workshop"
+                android:icon="@drawable/ic_menu_send"
+                android:title="ALGO" />
+            <item
+                android:id="@+id/elex_workshop"
+                android:icon="@drawable/ic_menu_send"
+                android:title="ELEX" />
+            <item
+                android:id="@+id/mech_workshop"
+                android:icon="@drawable/ic_menu_send"
+                android:title="MECH" />
+
+
+        </menu>
+
+    </item>
+
+
+
+</menu>
